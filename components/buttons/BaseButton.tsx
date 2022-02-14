@@ -28,7 +28,17 @@ type PropsType = {
 }
 
 
-const BaseButton = ({ children, isLoading, disabled, onClick, className, type = ButtonNativeType.Button, buttonType = ButtonType.Primary, filled = false, icon }: PropsType) => {
+const BaseButton = ({
+    children,
+    isLoading,
+    disabled,
+    onClick,
+    className,
+    type = ButtonNativeType.Button,
+    buttonType = ButtonType.Primary,
+    filled = false,
+    icon
+}: PropsType) => {
 
     return (
         <button
