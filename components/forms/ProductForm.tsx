@@ -24,7 +24,17 @@ type FormValues = {
     description: string
 }
 
-const ProductForm = ({ errors, touched, handleChange, values }: { errors: ErrorsType, touched: TouchedType, handleChange: (e: ChangeEvent) => void, values: FormValues}) => {
+const ProductForm = ({
+    errors,
+    touched,
+    handleChange,
+    values
+}: {
+    errors: ErrorsType,
+    touched: TouchedType,
+    handleChange: (e: ChangeEvent) => void,
+    values: FormValues
+}) => {
 
     return (
         <div className="flex flex-col gap-2">
