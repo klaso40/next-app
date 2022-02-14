@@ -28,7 +28,8 @@ const BaseInput = ({
    autoComplete,
    touched,
    className,
-   multiple}: PropsType) => {
+   multiple
+}: PropsType) => {
 
     return (
         <div className={className}>
